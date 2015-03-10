@@ -1,0 +1,17 @@
+Get the python 3 headers:
+
+sudo apt-get install python3-dev
+
+ 
+## This gets what you need
+git clone https://github.com/matplotlib/matplotlib
+
+cd matplotlib
+
+
+sudo python3 setup.py ## to check what you need
+
+
+##To install: (in the same matplotlib folder)
+sudo python3 setup.py build
+
